@@ -1,11 +1,11 @@
-applications:
-  - name: dealerreview
+  applications:
+  - name: djangoapp
     routes:
-      - route: aaronlwells239.us-south.cf.appdomain.cloud
+      - route: https://ruanmyibm.eu-gb.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: dealerreview-nginx
+  - name: djangoapp-nginx
     routes:
-      - route: aaronlwells239.us-south.cf.appdomain.cloud/static
+      - route: https://ruanmyibm.eu-gb.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
