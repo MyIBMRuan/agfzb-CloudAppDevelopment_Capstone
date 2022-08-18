@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["ruanmyibm.eu-gb.cf.appdomain.cloud"]
+ALLOWED_HOSTS = ["127.0.0.1"]#["ruanmyibm.eu-gb.cf.appdomain.cloud"]
 
 
 # Application definition
